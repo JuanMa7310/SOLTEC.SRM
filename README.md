@@ -1,6 +1,5 @@
 # SOLTEC.SRM
 
-![image](https://img.shields.io/badge/license-GPL-3.svg)
 ![image](https://img.shields.io/badge/license-LGPL-3.svg)
 
 **SOLTEC.SRM** (**Supplier Relationship Management*). The concept refers to a type of software that enables the
