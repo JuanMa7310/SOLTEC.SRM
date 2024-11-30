@@ -3,14 +3,47 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documentation", "Documentation", "{1585391E-000E-420F-83C4-81249D5695D8}"
+	ProjectSection(SolutionItems) = preProject
+		LICENSE = LICENSE
+		README-ES.md = README-ES.md
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Source", "Source", "{5A6CDD61-5777-414E-BF46-2DFE31B202C2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Images", "Images", "{5DE2069B-3500-45A5-BF41-E27830ADC788}"
+	ProjectSection(SolutionItems) = preProject
+		repository-open-graph-template.png = repository-open-graph-template.png
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{5B65266F-BF9F-40FE-AB15-3B8EBF4704B5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SOLTEC.SRM", "SOLTEC.SRM\SOLTEC.SRM.csproj", "{723930B0-E263-491D-91DA-FCB75254812F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SOLTEC.SRM.Tests", "SOLTEC.SRM.Tests\SOLTEC.SRM.Tests.csproj", "{681514DA-1960-4C66-A855-547141594735}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{723930B0-E263-491D-91DA-FCB75254812F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{723930B0-E263-491D-91DA-FCB75254812F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{723930B0-E263-491D-91DA-FCB75254812F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{723930B0-E263-491D-91DA-FCB75254812F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{681514DA-1960-4C66-A855-547141594735}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{681514DA-1960-4C66-A855-547141594735}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{681514DA-1960-4C66-A855-547141594735}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{681514DA-1960-4C66-A855-547141594735}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5DE2069B-3500-45A5-BF41-E27830ADC788} = {1585391E-000E-420F-83C4-81249D5695D8}
+		{723930B0-E263-491D-91DA-FCB75254812F} = {5A6CDD61-5777-414E-BF46-2DFE31B202C2}
+		{681514DA-1960-4C66-A855-547141594735} = {5B65266F-BF9F-40FE-AB15-3B8EBF4704B5}
 	EndGlobalSection
 EndGlobal
