@@ -9,7 +9,11 @@ unificada de los datos y la automatización de los procesos.
 
 # Instalación
 
+
+
 # Construyendo
+
+
 
 #### Con Visual Studio 2022
 
